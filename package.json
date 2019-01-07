@@ -1,8 +1,9 @@
 {
-  "name": "nextjs-forty",
+  "name": "website-project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://haneulee.gitlab.io/website-project",
   "scripts": {
     "dev": "next",
     "build": "next build",
