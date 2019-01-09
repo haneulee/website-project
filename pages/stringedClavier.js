@@ -21,29 +21,29 @@ export default () => (
           <h3>1. Idea sketch </h3>
           <Slideshow
             slideImages={[
-              "/static/images/sc_1.png",
-              "/static/images/sc_19.png",
-              "/static/images/sc_2.png",
-              "/static/images/sc_4.png",
-              "/static/images/sc_5.png",
-              "/static/images/sc_3.png",
-              "/static/images/sc_17.png",
-              "/static/images/sc_18.png"
+              "/website-project/static/images/sc_1.png",
+              "/website-project/static/images/sc_19.png",
+              "/website-project/static/images/sc_2.png",
+              "/website-project/static/images/sc_4.png",
+              "/website-project/static/images/sc_5.png",
+              "/website-project/static/images/sc_3.png",
+              "/website-project/static/images/sc_17.png",
+              "/website-project/static/images/sc_18.png"
             ]}
           />
 
           <h3>2. Prototype </h3>
           <Slideshow
             slideImages={[
-              "/static/images/sc_6_1.png",
-              "/static/images/sc_6_2.png",
-              "/static/images/sc_6_3.png",
-              "/static/images/sc_6_4.png",
-              "/static/images/sc_6_5.png",
-              "/static/images/sc_install.png",
-              "/static/images/sc_6_6.png",
-              "/static/images/sc_6_7.png",
-              "/static/images/sc_6_8.png"
+              "/website-project/static/images/sc_6_1.png",
+              "/website-project/static/images/sc_6_2.png",
+              "/website-project/static/images/sc_6_3.png",
+              "/website-project/static/images/sc_6_4.png",
+              "/website-project/static/images/sc_6_5.png",
+              "/website-project/static/images/sc_install.png",
+              "/website-project/static/images/sc_6_6.png",
+              "/website-project/static/images/sc_6_7.png",
+              "/website-project/static/images/sc_6_8.png"
             ]}
           />
 
@@ -56,7 +56,7 @@ export default () => (
             <canvas
               id="mycanvas"
               className="size"
-              data-processing-sources="/static/images/Stringed_Clavier.pde"
+              data-processing-sources="/website-project/static/images/Stringed_Clavier.pde"
               width="640"
               height="360"
             />
@@ -65,20 +65,20 @@ export default () => (
           <h3>4. Installation </h3>
           <Slideshow
             slideImages={[
-              "/static/images/sc_9_1.png",
-              "/static/images/sc_8_1.png",
-              "/static/images/sc_10_1.png",
-              "/static/images/sc_11_1.png",
-              "/static/images/sc_12_1.png",
-              "/static/images/sc_13_1.png",
-              "/static/images/sc_14_1.png",
-              "/static/images/sc_7_1.png",
-              "/static/images/sc_15_1.png",
-              "/static/images/sc_16_1.png",
-              "/static/images/sc_17_1.png",
-              "/static/images/sc_18_1.png",
-              "/static/images/sc_19_1.png",
-              "/static/images/sc_21_1.png"
+              "/website-project/static/images/sc_9_1.png",
+              "/website-project/static/images/sc_8_1.png",
+              "/website-project/static/images/sc_10_1.png",
+              "/website-project/static/images/sc_11_1.png",
+              "/website-project/static/images/sc_12_1.png",
+              "/website-project/static/images/sc_13_1.png",
+              "/website-project/static/images/sc_14_1.png",
+              "/website-project/static/images/sc_7_1.png",
+              "/website-project/static/images/sc_15_1.png",
+              "/website-project/static/images/sc_16_1.png",
+              "/website-project/static/images/sc_17_1.png",
+              "/website-project/static/images/sc_18_1.png",
+              "/website-project/static/images/sc_19_1.png",
+              "/website-project/static/images/sc_21_1.png"
             ]}
           />
 

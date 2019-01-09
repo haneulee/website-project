@@ -22,9 +22,7 @@ class Slideshow extends React.Component {
     if (this.state.activeIndex === 1) {
       this.setState({
         activeIndex: this.state.activeIndex + this.state.slider.length - 1,
-        left:
-          this.state.left -
-          this.state.sliderWidth * (this.state.slider.length - 1)
+        left: this.state.left - this.state.sliderWidth * (this.state.slider.length - 1)
       });
     }
   }
@@ -45,9 +43,7 @@ class Slideshow extends React.Component {
   clickIndicator(e) {
     this.setState({
       activeIndex: parseInt(e.target.textContent),
-      left:
-        this.state.sliderWidth -
-        parseInt(e.target.textContent) * this.state.sliderWidth
+      left: this.state.sliderWidth - parseInt(e.target.textContent) * this.state.sliderWidth
     });
   }
 
@@ -75,9 +71,7 @@ class Slideshow extends React.Component {
               src={item}
               alt=""
               style={style}
-              className={
-                index + 1 === this.state.activeIndex ? "slider-item" : "hide"
-              }
+              className={index + 1 === this.state.activeIndex ? "slider-item" : "hide"}
             />
           ))}
           <div className="buttons-wrapper">
@@ -89,11 +83,7 @@ class Slideshow extends React.Component {
               {this.state.slider.map((item, index) => (
                 <li
                   key={index}
-                  className={
-                    index + 1 === this.state.activeIndex
-                      ? "active-indicator"
-                      : ""
-                  }
+                  className={index + 1 === this.state.activeIndex ? "active-indicator" : ""}
                   onClick={this.clickIndicator}
                 >
                   {index + 1}

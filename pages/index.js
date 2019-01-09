@@ -12,7 +12,7 @@ export default () => (
         <section id="one" className="tiles">
           <article
             style={{
-              backgroundImage: `url('/static/images/stringedClavier.jpg')`
+              backgroundImage: `url('/website-project/static/images/stringedClavier.jpg')`
             }}
           >
             <header className="major">
@@ -25,7 +25,7 @@ export default () => (
           </article>
           <article
             style={{
-              backgroundImage: `url('/static/images/theShapeOfSound.gif')`
+              backgroundImage: `url('/website-project/static/images/theShapeOfSound.gif')`
             }}
           >
             <header className="major">
@@ -38,7 +38,7 @@ export default () => (
           </article>
           <article
             style={{
-              backgroundImage: `url('/static/images/interactiveVideo2.png')`
+              backgroundImage: `url('/website-project/static/images/interactiveVideo2.png')`
             }}
           >
             <header className="major">
@@ -51,7 +51,7 @@ export default () => (
           </article>
           <article
             style={{
-              backgroundImage: `url('/static/images/shoutOutLoud.png')`
+              backgroundImage: `url('/website-project/static/images/shoutOutLoud.png')`
             }}
           >
             <header className="major">
@@ -62,7 +62,7 @@ export default () => (
               <a className="link primary" />
             </Link>
           </article>
-          <article style={{ backgroundImage: `url('/static/images/aori.png')` }}>
+          <article style={{ backgroundImage: `url('/website-project/static/images/aori.png')` }}>
             <header className="major">
               <h3>Aori Apple</h3>
               <p>Ipsum dolor sit amet</p>
@@ -71,7 +71,7 @@ export default () => (
               <a className="link primary" />
             </Link>
           </article>
-          <article style={{ backgroundImage: `url('/static/images/speech.png')` }}>
+          <article style={{ backgroundImage: `url('/website-project/static/images/speech.png')` }}>
             <header className="major">
               <h3>From Voice to Text</h3>
               <p>Feugiat amet tempus</p>
@@ -83,7 +83,7 @@ export default () => (
 
           <article
             style={{
-              backgroundImage: `url('/static/images/interactiveMusicVideo.gif')`
+              backgroundImage: `url('/website-project/static/images/interactiveMusicVideo.gif')`
             }}
           >
             <header className="major">
@@ -96,7 +96,7 @@ export default () => (
           </article>
           <article
             style={{
-              backgroundImage: `url('/static/images/imagoTubaCanerent.png')`
+              backgroundImage: `url('/website-project/static/images/imagoTubaCanerent.png')`
             }}
           >
             <header className="major">
@@ -109,7 +109,7 @@ export default () => (
           </article>
           <article
             style={{
-              backgroundImage: `url('/static/images/alphabetKeyboard.gif')`
+              backgroundImage: `url('/website-project/static/images/alphabetKeyboard.gif')`
             }}
           >
             <header className="major">
@@ -122,7 +122,7 @@ export default () => (
           </article>
           <article
             style={{
-              backgroundImage: `url('/static/images/theShapeOfWhistle.jpeg')`
+              backgroundImage: `url('/website-project/static/images/theShapeOfWhistle.jpeg')`
             }}
           >
             <header className="major">
@@ -133,7 +133,7 @@ export default () => (
               <a className="link primary" />
             </Link>
           </article>
-          <article style={{ backgroundImage: `url('/static/images/drawing.png')` }}>
+          <article style={{ backgroundImage: `url('/website-project/static/images/drawing.png')` }}>
             <header className="major">
               <h3>Drawing</h3>
               <p>Feugiat amet tempus</p>
