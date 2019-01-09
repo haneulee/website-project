@@ -50,10 +50,7 @@ export default () => (
           <h3>3. Video interactive design </h3>
           <p>1. Click the box below</p>
           <p>2. Type 'a, s, d, f, g' on your keyboard.</p>
-          <p>
-            3. Check a transition of strings on the image and listen to the
-            sound.
-          </p>
+          <p>3. Check a transition of strings on the image and listen to the sound.</p>
 
           <p>
             <canvas
