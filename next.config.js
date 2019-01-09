@@ -1,5 +1,6 @@
 const path = require("path");
 const glob = require("glob");
+const debug = process.env.NODE_ENV !== "production";
 
 module.exports = {
   webpack: (config, { dev }) => {
@@ -14,6 +15,13 @@ module.exports = {
       {
         test: /\.css$/,
         use: ["babel-loader", "raw-loader", "postcss-loader"]
+      },
+      {
+        loader: "babel-loader",
+        options: {
+          babelrc: false,
+          extends: path.resolve(__dirname, "./.babelrc")
+        }
       },
       {
         test: /\.s(a|c)ss$/,
@@ -34,8 +42,16 @@ module.exports = {
         ]
       }
     );
+
+    config.module.rules = config.module.rules.map(rule => {
+      if (rule.loader === "babel-loader") {
+        rule.options.cacheDirectory = false;
+      }
+      return rule;
+    });
+
     return config;
-  }
+  },
   // exportPathMap: function(defaultPathMap) {
   //   return {
   //     '/': { page: '/' },
@@ -44,4 +60,13 @@ module.exports = {
   //     '/landing': { page: '/landing' }
   //   }
   // }
+  exportPathMap: function() {
+    return {
+      "/": { page: "/" },
+      "/landing": { page: "/landing" },
+      "/generic": { page: "/generic" },
+      "/landing": { page: "/landing" }
+    };
+  },
+  assetPrefix: !debug ? "/website-project/" : ""
 };

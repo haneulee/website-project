@@ -1,29 +1,23 @@
 {
-    "plugins": [
-        [
-            "module-resolver",
-            {
-                "root": [
-                    "."
-                ],
-                "alias": {
-                    "styles": "./styles"
-                },
-                "cwd": "babelrc"
-            }
-        ],
-        [
-            "wrap-in-js",
-            {
-                "extensions": [
-                    "css$",
-                    "scss$"
-                ]
-            }
-        ]
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["."],
+        "alias": {
+          "styles": "./styles"
+        },
+        "cwd": "babelrc"
+      }
     ],
-    "presets": [
-        "next/babel"
+    [
+      "wrap-in-js",
+      {
+        "extensions": ["css$", "scss$"]
+      }
     ],
-    "ignore": []
+    ["transform-define", "./env-config"]
+  ],
+  "presets": ["next/babel"],
+  "ignore": []
 }
